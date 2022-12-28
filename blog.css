@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+.row.content { /*TAMANHO DO SITE*/
+    height: 2500px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/*NAVBAR-----------------------------------*/
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+        height: 90px;
+    }
+}
+
+.navbar .nav-list li{
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-logo{
+    margin-top: 1.7vh;
+}
+
+.nav-block .nav-logo{
+    color: #fca84e;
+    font-family: 'Ultra', serif;
+    font-weight: bolder;
+    font-size: 2.2em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-block .nav-logo:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+    color: #fca84e;
+}
+
+.navbar .nav-block .nav-list a {
+    color: #fca84e;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.navbar .nav-block .nav-list a:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    color: #fca84e;
+    text-decoration: none;
+}
+
+/*MAIN----------------------------------*/
+
+.main-slider{
+    margin-top: -2.5vh;
+}
+
+.main-items{
+    margin: 7vh auto;
+}
+
+#diadia{
+    margin: 20vh auto;
+}
+
+.main-cardapio{
+    margin: -40vh auto;
+}
+
+.main-encomenda{
+    margin-top: 50vh;
+}
+
+#encomenda{
+    z-index: 1;
+}
+
+.linha1{
+    margin-top: -50vh;
+}
+
+.logo-comidas{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #fca84e;
+}
+
+.comidas{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.comidas:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+.btn{
+    z-index: 3;
+    margin-top: -40vh;
+    margin-left: -3vw;
+}
+
+.btn-encomenda{
+    color: #fca84e;
+    background: #583611;
+    border: none;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.btn-encomenda:hover{
+    color: #583611;
+    background: #fca84e;
+    transition: 0.5s;
+}
+
+/*FOOTER--------------------------------*/
+
+footer {
+    background: rgb(0, 0, 0);
+    padding: 15px;
+    height: 55vh;
+    width: 100%;
+    color: #ffca91;
+}
+
+.lines{
+    height: 52vh;
+    width: 70vw;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.line1, .line2{
+    background-color: #ffca91;
+    width: 70vw;
+    height: 1px;    
+}
+
+.line1{
+    margin-top: 3vh;
+}
+
+.line2{
+    margin-top: 5vh;
+}
+
+.footer-logo{
+    font-size: 3em;
+    font-family: 'Ultra', serif;
+    font-weight: bold;
+    color: #ffca91;
+}
+
+.info-primary{
+    color: #ffca91;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.info-primary p{
+    font-size: 1.2em;
+}
+
+.info-primary p:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.info-primary h1{
+    margin-bottom: 3vh;
+    font-weight: bold;
+}
+
+.pedido{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.pedido h1{
+    font-size: 2em;
+    color: #ffca91;
+    font-weight: bolder ;
+}
+
+.pedido img{
+    margin-top: 2vh;
+}
+
+.social-media{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.social-media h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffca91;
+    font-weight: bolder;
+}
+
+.social-media img{
+    margin: 8px;
+}
+
+.social-media img:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.copyright{
+    color: #ffca91;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 2vh;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #ffca91;
+}
+
+.copyright a:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
